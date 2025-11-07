@@ -1,11 +1,15 @@
 ‎# 🤖 AI-on-TERMUX
 ‎
-‎Welcome to **AI-on-Ubuntu** — a ready-to-use setup for running **Open WebUI** on **Ubuntu** with **Python 3.12+** support.  
+‎Welcome to **AI-on-Ubuntu** — a ready-to-use setup for running **Open WebUI** on **Ubuntu** with **Python 3.12+** support. 
+
 ‎This repository documents the complete installation and activation process for Open WebUI, including building Python 3.12 from source for environments where it’s not pre-installed.
 ‎
 ‎---
 ‎
+
 ‎## 🧠 Overview
+
+
 ‎- This is on proot-distro (ubuntu)
 ‎This setup allows you to:
 ‎- Run **Open WebUI** locally on Ubuntu  
@@ -13,8 +17,10 @@
 ‎- Quickly launch the AI interface in your browser at  
 ‎  👉 `http://localhost:8080`
 ‎
+
 ‎> ⏱️ The full setup may take around **25-30 minutes**, mainly due to Python 3.12 compilation.
 ‎
+
 ‎---
 ‎
 ‎## ⚙️ Prerequisites
@@ -47,10 +53,18 @@
 ‎make -j$(nproc) &&
 ‎make altinstall &&
 ‎ln -sf /usr/local/bin/python3.12 /usr/bin/python3.12 &&
-‎python3.12 --version ```
-‎
+‎python3.12 --version 
+‎```
+
+
 ‎### OPEN-WEBUI 
+
+
 ‎``` pip install venv && python3.12 -m venv openwebui && source openwebui/bin/activate && open-webui serve --host 0.0.0.0 --port 8080 ```
+
+
 ‎#HOW TO LOGIN PROOT-DISTRO
+
+
 ‎``` proot-distro login ubuntu --bind /dev/null:/proc/sys/net/ipv6/conf/default/disable_ipv6 --bind /dev
 ‎```
