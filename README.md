@@ -15,11 +15,11 @@ ln -sf /usr/local/bin/python3.12 /usr/bin/python3.12 && \
 python3.12 --version
 '
 'TO ACTIVE UBUNTU'
+python -m venv openwebui 
 ollama serve
 source openwebui/bin/active
 source openwebui/bin/activate
 open-webui serve --host 0.0.0.0 --port 8080
 #Go to 
-http://localhost:8080
-#DOWNLOAD FILE
-https://drive.google.com/file/d/1hz0XWJ_eeoc9DO2FaEPDtWP4kNG8Y8h-/view?usp=drivesdk
+http://localhost:8080.      
+ILFILEILEFLEFIEFILFILELEFIEFILFILEILEFLEFIEFILILEh
