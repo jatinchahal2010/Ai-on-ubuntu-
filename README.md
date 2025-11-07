@@ -1,4 +1,4 @@
-‎# 🤖 AI-on-TERMUX
+##‎# 🤖 AI-on-TERMUX
 ‎
 ‎Welcome to **AI-on-Ubuntu** — a ready-to-use setup for running **Open WebUI** on **Ubuntu** with **Python 3.12+** support. 
 
@@ -7,7 +7,7 @@
 ‎---
 ‎
 
-‎## 🧠 Overview
+‎### 🧠 Overview
 
 
 ‎- This is on proot-distro (ubuntu)
@@ -23,7 +23,7 @@
 
 ‎---
 ‎
-‎## ⚙️ Prerequisites
+‎### ⚙️ Prerequisites
 ‎
 ‎Make sure you’re running **Ubuntu** (or a compatible Linux environment) with:
 ‎
@@ -38,8 +38,7 @@
 ‎### 1️⃣ Install Required Dependencies
 ‎### ollama
 ‎`curl -fsSL https://ollama.com/install.sh | sh`
-‎#Run ollama
-‎`ollama serve`
+‎**Run ollama**           `ollama serve`
 ‎### Python3.12.7
 ‎```
 ‎apt update && apt install sudo -y &&
@@ -63,7 +62,7 @@
 ‎``` pip install venv && python3.12 -m venv openwebui && source openwebui/bin/activate && open-webui serve --host 0.0.0.0 --port 8080 ```
 
 
-‎#HOW TO LOGIN PROOT-DISTRO
+‎###HOW TO LOGIN PROOT-DISTRO
 
 
 ‎``` proot-distro login ubuntu --bind /dev/null:/proc/sys/net/ipv6/conf/default/disable_ipv6 --bind /dev
