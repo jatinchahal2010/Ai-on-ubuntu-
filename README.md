@@ -1,5 +1,5 @@
 # Ai-on-ubuntu
-In This repo there is Openwebui installed which took my 2-3 hours as python 3.12iss not installed'apt install sudo -y '
+In This repo there is Openwebui installed which took my 2-3 hours as python 3.12iss not installed      'apt install sudo -y '
 '
 sudo apt update && \
 sudo apt install -y build-essential git wget tar zlib1g-dev libssl-dev \
@@ -19,7 +19,6 @@ python -m venv openwebui
 ollama serve
 source openwebui/bin/active
 source openwebui/bin/activate
-open-webui serve --host 0.0.0.0 --port 8080
+'open-webui serve --host 0.0.0.0 --port 8080'
 #Go to 
-http://localhost:8080.      
-ILFILEILEFLEFIEFILFILELEFIEFILFILEILEFLEFIEFILILEh
+http://localhost:8080
